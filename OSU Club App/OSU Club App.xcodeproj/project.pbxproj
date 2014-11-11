@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A922BF101A11B90B007015E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A922BF0F1A11B90B007015E8 /* main.m */; };
+		A922BF131A11B90B007015E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A922BF121A11B90B007015E8 /* AppDelegate.m */; };
+		A922BF161A11B90B007015E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A922BF151A11B90B007015E8 /* ViewController.m */; };
+		A922BF191A11B90B007015E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A922BF171A11B90B007015E8 /* Main.storyboard */; };
+		A922BF1B1A11B90B007015E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A922BF1A1A11B90B007015E8 /* Images.xcassets */; };
+		A922BF1E1A11B90B007015E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A922BF1C1A11B90B007015E8 /* LaunchScreen.xib */; };
+		A922BF2A1A11B90B007015E8 /* OSU_Club_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A922BF291A11B90B007015E8 /* OSU_Club_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A922BF241A11B90B007015E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A922BF021A11B90A007015E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A922BF091A11B90A007015E8;
+			remoteInfo = "OSU Club App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A922BF0A1A11B90A007015E8 /* OSU Club App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OSU Club App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922BF0E1A11B90B007015E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A922BF0F1A11B90B007015E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A922BF111A11B90B007015E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A922BF121A11B90B007015E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A922BF141A11B90B007015E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A922BF151A11B90B007015E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A922BF181A11B90B007015E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A922BF1A1A11B90B007015E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A922BF1D1A11B90B007015E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A922BF231A11B90B007015E8 /* OSU Club AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OSU Club AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A922BF281A11B90B007015E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A922BF291A11B90B007015E8 /* OSU_Club_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSU_Club_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A922BF071A11B90A007015E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922BF201A11B90B007015E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A922BF011A11B90A007015E8 = {
+			isa = PBXGroup;
+			children = (
+				A922BF0C1A11B90A007015E8 /* OSU Club App */,
+				A922BF261A11B90B007015E8 /* OSU Club AppTests */,
+				A922BF0B1A11B90A007015E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A922BF0B1A11B90A007015E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A922BF0A1A11B90A007015E8 /* OSU Club App.app */,
+				A922BF231A11B90B007015E8 /* OSU Club AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A922BF0C1A11B90A007015E8 /* OSU Club App */ = {
+			isa = PBXGroup;
+			children = (
+				A922BF111A11B90B007015E8 /* AppDelegate.h */,
+				A922BF121A11B90B007015E8 /* AppDelegate.m */,
+				A922BF141A11B90B007015E8 /* ViewController.h */,
+				A922BF151A11B90B007015E8 /* ViewController.m */,
+				A922BF171A11B90B007015E8 /* Main.storyboard */,
+				A922BF1A1A11B90B007015E8 /* Images.xcassets */,
+				A922BF1C1A11B90B007015E8 /* LaunchScreen.xib */,
+				A922BF0D1A11B90B007015E8 /* Supporting Files */,
+			);
+			path = "OSU Club App";
+			sourceTree = "<group>";
+		};
+		A922BF0D1A11B90B007015E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A922BF0E1A11B90B007015E8 /* Info.plist */,
+				A922BF0F1A11B90B007015E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A922BF261A11B90B007015E8 /* OSU Club AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A922BF291A11B90B007015E8 /* OSU_Club_AppTests.m */,
+				A922BF271A11B90B007015E8 /* Supporting Files */,
+			);
+			path = "OSU Club AppTests";
+			sourceTree = "<group>";
+		};
+		A922BF271A11B90B007015E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A922BF281A11B90B007015E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A922BF091A11B90A007015E8 /* OSU Club App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922BF2D1A11B90B007015E8 /* Build configuration list for PBXNativeTarget "OSU Club App" */;
+			buildPhases = (
+				A922BF061A11B90A007015E8 /* Sources */,
+				A922BF071A11B90A007015E8 /* Frameworks */,
+				A922BF081A11B90A007015E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OSU Club App";
+			productName = "OSU Club App";
+			productReference = A922BF0A1A11B90A007015E8 /* OSU Club App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A922BF221A11B90B007015E8 /* OSU Club AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A922BF301A11B90B007015E8 /* Build configuration list for PBXNativeTarget "OSU Club AppTests" */;
+			buildPhases = (
+				A922BF1F1A11B90B007015E8 /* Sources */,
+				A922BF201A11B90B007015E8 /* Frameworks */,
+				A922BF211A11B90B007015E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A922BF251A11B90B007015E8 /* PBXTargetDependency */,
+			);
+			name = "OSU Club AppTests";
+			productName = "OSU Club AppTests";
+			productReference = A922BF231A11B90B007015E8 /* OSU Club AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A922BF021A11B90A007015E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Oregon State University App Club";
+				TargetAttributes = {
+					A922BF091A11B90A007015E8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A922BF221A11B90B007015E8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A922BF091A11B90A007015E8;
+					};
+				};
+			};
+			buildConfigurationList = A922BF051A11B90A007015E8 /* Build configuration list for PBXProject "OSU Club App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A922BF011A11B90A007015E8;
+			productRefGroup = A922BF0B1A11B90A007015E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A922BF091A11B90A007015E8 /* OSU Club App */,
+				A922BF221A11B90B007015E8 /* OSU Club AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A922BF081A11B90A007015E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922BF191A11B90B007015E8 /* Main.storyboard in Resources */,
+				A922BF1E1A11B90B007015E8 /* LaunchScreen.xib in Resources */,
+				A922BF1B1A11B90B007015E8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922BF211A11B90B007015E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A922BF061A11B90A007015E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922BF161A11B90B007015E8 /* ViewController.m in Sources */,
+				A922BF131A11B90B007015E8 /* AppDelegate.m in Sources */,
+				A922BF101A11B90B007015E8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A922BF1F1A11B90B007015E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A922BF2A1A11B90B007015E8 /* OSU_Club_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A922BF251A11B90B007015E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A922BF091A11B90A007015E8 /* OSU Club App */;
+			targetProxy = A922BF241A11B90B007015E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A922BF171A11B90B007015E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A922BF181A11B90B007015E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A922BF1C1A11B90B007015E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A922BF1D1A11B90B007015E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A922BF2B1A11B90B007015E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A922BF2C1A11B90B007015E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A922BF2E1A11B90B007015E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OSU Club App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A922BF2F1A11B90B007015E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "OSU Club App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A922BF311A11B90B007015E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSU Club AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU Club App.app/OSU Club App";
+			};
+			name = Debug;
+		};
+		A922BF321A11B90B007015E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSU Club AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSU Club App.app/OSU Club App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A922BF051A11B90A007015E8 /* Build configuration list for PBXProject "OSU Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922BF2B1A11B90B007015E8 /* Debug */,
+				A922BF2C1A11B90B007015E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A922BF2D1A11B90B007015E8 /* Build configuration list for PBXNativeTarget "OSU Club App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922BF2E1A11B90B007015E8 /* Debug */,
+				A922BF2F1A11B90B007015E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A922BF301A11B90B007015E8 /* Build configuration list for PBXNativeTarget "OSU Club AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A922BF311A11B90B007015E8 /* Debug */,
+				A922BF321A11B90B007015E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A922BF021A11B90A007015E8 /* Project object */;
+}
